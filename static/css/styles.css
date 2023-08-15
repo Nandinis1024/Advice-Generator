@@ -1,0 +1,105 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.snip1575 {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 40px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 2.7em;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 10px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 15px 0 15px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.snip1575:before {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 35px 35px 0;
+  border-color: transparent #c87f0a transparent transparent;
+  z-index: 1;
+}
+
+.snip1575:hover,
+.snip1575.hover {
+  border-color: #c87f0a;
+}
+
+/* Demo purposes only */
+body {
+  background-color: #212121;
+  color: #fff;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Source+Serif+Pro&display=swap');
+
+html, body{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+body{
+	background-color: #131311;
+	height: 100vh;
+	width: 100vw;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.container{
+	padding: 50px;
+
+}
+
+.quote-container{
+	display: flex;
+	flex-direction: column;
+	background-color: #2d2d2d;
+	padding: 10px;
+	transition-duration: 0.2s;
+}
+
+.quote-container:hover{
+	box-shadow: 5px 5px 5px;
+	cursor: pointer;
+}
+
+.aspas {
+	color: white;
+	font-size: 3rem;
+}
+#end {
+	text-align: right;
+	
+}
+#quote{
+	font-size: 2rem;
+	color: white;
+	font-family: 'Source Serif Pro', serif;
+
+}
+#author{
+	font-size: 1.4rem;
+	color: grey;
+	text-align: right;
+	font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advice</title>
+    <script src="https://kit.fontawesome.com/9d98f14f8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="flex-container">    
+<form action="/" method="post">
+    <div class="row">
+    <div class="col-6">
+    <button class="snip1575" type="submit" name="action" value="btn1">Generate Advice</button>
+    </div>
+    <div class="col-6">
+    <input class="snip1575" type="text" name="customAdvice">
+    <button class="snip1575" type="submit" name="action" value="btn2">Generate Custom Advice</button>
+    </div>
+    </div>
+</form>
+</div>
+
+<div class="container">
+	<div class="quote-container">
+		<span class="aspas" id="start"><i class="fa-solid fa-quote-left"></i></span>
+		<span id="quote"><h1><%= advice %></h1></span>
+		<span class="aspas" id="end"><i class="fa-solid fa-quote-right"></i></span>
+		<span id="author"></span>
+	</div>
+</div>
+    
+    
+</body>
+</html>
